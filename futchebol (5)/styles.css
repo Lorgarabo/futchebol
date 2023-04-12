@@ -1,0 +1,288 @@
+*{margin: 0; padding:0 ;}
+body {
+   
+    background-image: url(https://es.besoccer.com/media/img/bg_field_vertical.png);
+    background-position: center top;
+    background-color: green;
+    background-repeat: no-repeat;
+    margin: 0;
+    
+   
+}
+
+
+
+
+
+
+#SUB {
+
+text-align: center;
+margin-top: 6.5cm;
+font-size: 40px;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1000px;
+ margin: auto;
+
+
+
+  }
+  
+.nav-menu {
+    margin-top: 1cm;
+   padding: 10px;
+overflow: hidden;
+background-color: aliceblue;
+margin-bottom: 20px;
+
+
+
+
+
+  }
+
+
+a {
+color: #020101;
+text-decoration: none;
+font-size: 15px;
+
+justify-content: space-between;
+
+
+padding:1.7cm ;
+
+
+
+}
+
+ul {
+list-style: none;
+
+
+}
+nav {
+display:inline-block;
+float: right;
+margin-top: 0.4cm;
+margin-right: 4.45px;
+
+
+
+}
+
+
+.logo {
+ 
+
+
+
+  display: flex;
+  width: 2cm;
+  height: 2cm;
+  margin-right: 2cm;
+  line-height: 200px;
+  float:left;
+}
+
+  .logo img {
+      
+  transition: .5s ease;
+}
+
+.logo img:hover {
+  cursor: pointer;
+  width: 1400px;
+  opacity: 1;
+  filter: contrast(120%);
+  transform: scale(1.2);
+}
+.container{
+  width: 90%;
+  max-width: 1000px;
+ margin: auto;
+ display: flex;
+margin-top: 4cm;
+
+}
+
+.logobig{
+ 
+
+padding: 1CM;
+  width: 14cm;
+  height: 14cm;
+padding-left: 5CM;
+  margin-top:2.3cm;
+  margin-right: 1cm;
+  
+  float:right;
+}
+
+  .logobig img {
+      
+  transition: .5s ease;
+}
+
+.logobig img:hover {
+  cursor: pointer;
+width: 400px;
+  opacity: 1;
+  filter: contrast(120%);
+  transform: scale(1.2);
+}
+
+
+ iframe{
+width:14cm ;
+  margin-left: 1cm;
+margin-top: 2.7cm;
+float:left;
+
+}
+
+
+
+
+
+
+section {
+
+    display: flex;
+    width: 900px;
+    height: 400px;
+
+padding-top: 1cm;
+margin: auto;
+  }
+  
+  section img {
+    
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .99;
+    transition: .5s ease;
+   
+  }
+  
+
+  section img:hover {
+    cursor: pointer;
+    width: 350px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+
+
+  
+  
+
+
+  
+  .contN{
+    width: 90%;
+    max-width: 1000px;
+   margin: auto;
+  
+
+text-align: center;
+  margin-top: 3.5cm;
+  background-color: aliceblue;
+
+border:30px solid aliceblue; 
+border-left-width: 3cm;
+border-right-width:1.9cm;
+border-bottom-width:0.85cm;
+
+  }
+  .instagram {
+    width: 3cm;
+    max-width: 1000px;
+  }.face {
+    width: 3cm;
+    max-width: 1000px;
+  }.twite{
+    width: 3cm;
+    max-width: 1000px;
+  }
+
+
+ /* PAG 2 */
+
+
+  .wrapper2 {
+    width: 90%;
+    max-width: 1000px;
+   margin: auto;
+
+   
+  }
+  #SUB2 {
+
+    text-align: center;
+    margin-top: 4cm;
+    font-size: 40px;
+    }
+
+#div1 {
+  overflow:scroll;
+  
+  height:14cm;
+  width:12cm;
+  display: flex;
+  
+
+  float:right;
+  margin-top: 2.5cm;
+  
+}
+
+#div1 table {
+
+ background-color:lightgray;
+
+ table-layout: fixed;
+ width: auto;
+
+}
+
+::-webkit-scrollbar {
+  display: none;
+
+}
+
+
+
+th, td {
+
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+border-left: 0cm;
+
+}
+.jamon {
+  width: 10cm;
+height: 4.5cm;
+margin-right: auto;
+
+flex-grow: 1;
+object-fit: cover;
+opacity: .99;
+transition: .5s ease;
+
+
+}
+.image-cell {
+  width: auto;
+}
+
+
+
